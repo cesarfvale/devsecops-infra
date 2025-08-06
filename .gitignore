@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Sonar
+.scannerwork/
