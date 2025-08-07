@@ -1,7 +1,0 @@
-- name: Deploy Config DevSecOps
-  hosts: localhost
-  tasks:
-    - name: Criar diretórios de configuração
-      file:
-        path: /tmp/devsecops-config
-        state: directory
